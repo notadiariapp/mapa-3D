@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Área 03 Aracruz - Mapa 3D Interativo</title>
+    <meta name="description" content="Experiência 3D geoespacial e tour interativo da região portuária e industrial de Aracruz, Espírito Santo. Localização estratégica a menos de 10 km dos portos." />
+    <meta property="og:title" content="Área 03 Aracruz - Mapa 3D Interativo" />
+    <meta property="og:description" content="Experiência 3D geoespacial e tour interativo da região portuária e industrial de Aracruz, Espírito Santo. Localização estratégica a menos de 10 km dos portos." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts for Editorial Industrial Design -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CesiumJS CSS and JS CDN -->
+    <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.121/Build/Cesium/Widgets/widgets.css" />
+    <script>
+      window.CESIUM_BASE_URL = 'https://cesium.com/downloads/cesiumjs/releases/1.121/Build/Cesium/';
+    </script>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.121/Build/Cesium/Cesium.js"></script>
+  </head>
+  <body class="bg-[#0A1118] text-slate-100 antialiased selection:bg-[#FF6A1A]/30 selection:text-[#FF843D]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

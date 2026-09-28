@@ -1,0 +1,6 @@
+{
+  "name": "Área 03 Aracruz - Mapa 3D Interativo",
+  "description": "Experiência 3D geoespacial e tour interativo da região portuária e industrial de Aracruz, Espírito Santo. Localização estratégica a menos de 10 km dos portos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
